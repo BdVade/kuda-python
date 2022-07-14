@@ -1,8 +1,8 @@
-
-
-
 class KudaBase:
-    def __init__(self, private_key, public_key):
+    def __init__(self, encryptor):
+        self.random_string = None
+
+    def _header(self):
         pass
 
     def _get(self):
@@ -10,5 +10,3 @@ class KudaBase:
 
     def _post(self):
         pass
-
-
